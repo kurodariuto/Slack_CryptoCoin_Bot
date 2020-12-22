@@ -43,7 +43,7 @@ def job():
     # Send to imgges to Slack
     files = {'file': open("CryptoCoin_Lineraph.png", 'rb')}
     param = {
-        'token': "xoxb-1448255571074-1595619608112-oO1vDwuDI6ggL3lXtV3TFMYM",
+        'token': "My slack api token",
         'channels': "C01CRF5CB9D",
         'filename': "filename",
         'initial_comment': "image trnsmission",
